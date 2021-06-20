@@ -1,10 +1,10 @@
 import React from 'react';
 import styled from 'styled-components';
-import HeroImg from '../assets/images/hero.png';
+import HeroImg from '../assets/images/putri-hero1.jpeg';
 import Button from './Button';
 import SocialMediaArrow from '../assets/images/social-media-arrow.svg';
 import ScrollDownArrow from '../assets/images/scroll-down-arrow.svg';
-import PText from './PText';
+// import PText from './PText';
 
 const HeroStyles = styled.div`
   .hero {
@@ -153,19 +153,14 @@ export default function HeroSection() {
       <div className="hero">
         <div className="container">
           <h1 className="hero__heading">
-            <span>Hello, This is</span>
-            <span className="hero__name">Ayan Khan</span>
+            <span>Hello, I Am</span>
+            <span className="hero__name">Ayu Kinanthi Putri</span>
           </h1>
           <div className="hero__img">
             <img src={HeroImg} alt="" />
           </div>
           <div className="hero__info">
-            <PText>
-              I am working as a freelance web designer and developer for 4
-              years. I love to design and make new web experiences for the
-              people.
-            </PText>
-            <Button btnText="see my works" btnLink="/projects" />
+            <Button btnText="see my works here!" btnLink="/projects" />
           </div>
           <div className="hero__social">
             <div className="hero__social__indicator">

@@ -2,9 +2,9 @@ import React from 'react';
 import styled from 'styled-components';
 import PText from '../components/PText';
 import Button from '../components/Button';
-import AboutImg from '../assets/images/about-page-img.png';
+import AboutImg from '../assets/images/putri-hero.jpeg';
 import AboutInfoItem from '../components/AboutInfoItem';
-import ContactBanner from '../components/ContactBanner';
+// import ContactBanner from '../components/ContactBanner';
 
 const AboutPageStyles = styled.div`
   padding: 20rem 0 10rem 0;
@@ -81,26 +81,27 @@ export default function About() {
           <div className="top-section">
             <div className="left">
               <p className="about__subheading">
-                Hi, I am <span>Ayan Khan</span>
+                Hi, I am <span>Ayu Kinanthi Putri</span>
               </p>
-              <h2 className="about__heading">A freelance Web developer</h2>
+              <h2 className="about__heading">UI/UX Designer</h2>
               <div className="about__info">
                 <PText>
-                  I am from chittagong, Bangladesh. A place of beauty and
-                  nature. Since my childhood, i love art and design. I always
-                  try to design stuff with my unique point of view. I also love
-                  to create things that can be usefull to others.
+                  I am from Balikpapan, East Kalimantan. A place of beauty and
+                  modern city. Since my childhood, i love art, design, writting
+                  and music. I always try to design with new trend and writting
+                  fiction. I also create music sheet for piano and choirs.
                   <br /> <br />
-                  I started coding since I was in high school. Coding is also an
-                  art for me. I love it and now I have the opportunity to design
+                  I started coding since I was in College. Coding is also an art
+                  for me. I love it and now I have the opportunity to design
                   along with the coding. I find it really interesting and I
                   enjoyed the process a lot.
                   <br />
                   <br />
-                  My vision is to make the world a better place. Now almost
-                  everything is becoming better than ever. It is time for us to
-                  create more good stuff that helps the world to become a better
-                  place.
+                  Beside that, i also work as Web Designer, member of Paduan
+                  Suara Mahasiswa Universitas Gadjah Mada (PSM UGM) and staff
+                  Division of Public Relation & Multimedia, member of Developer
+                  Study Club (DSC UGM) Batch 2, and internship at
+                  Tutorial4Serangkai
                 </PText>
               </div>
               <Button btnText="Download CV" btnLink="#" />
@@ -115,52 +116,62 @@ export default function About() {
 
               <AboutInfoItem
                 title="School"
-                items={['Nasirabad Govt. High School, Chattogram']}
+                items={['SMA Negeri 2 Balikpapan']}
               />
               <AboutInfoItem
-                title="Collage"
-                items={['BAF Shaheen College Chattogram']}
-              />
-              <AboutInfoItem
-                title="Varsity"
-                items={['University Of Chitiagong']}
+                title="College"
+                items={['Gadjah Mada University major in Software Engineering']}
               />
             </div>
             <div className="about__info__item">
               <h1 className="about__info__heading">My Skills</h1>
 
+              <AboutInfoItem title="FrontEnd" items={['JavaScript', 'Java']} />
+              <AboutInfoItem title="UI Design" items={['Figma', 'Adobe XD']} />
               <AboutInfoItem
-                title="FrontEnd"
-                items={['HTML', 'CSS', 'JavaScript', 'REACT']}
+                title="Graphic Design"
+                items={['Photoshop', 'Illustrator']}
               />
               <AboutInfoItem
-                title="BackEnd"
-                items={['Node', 'Express', 'PHP']}
-              />
-              <AboutInfoItem
-                title="Design"
-                items={['Photoshop', 'After Effects', 'Figma']}
+                title="Video Editing"
+                items={['Filmora', 'Adobe Premiere']}
               />
             </div>
             <div className="about__info__item">
               <h1 className="about__info__heading">Experiences</h1>
 
               <AboutInfoItem
-                title="2010-2012"
-                items={['junior developer at web Cifar']}
+                title="2017-2018"
+                items={['Vice Chairman of Smada Choir']}
               />
               <AboutInfoItem
-                title="2012-2016"
-                items={['Front end developer at web Cifar ']}
+                title="2019"
+                items={['Liasion Officier LPS UGM 2019']}
               />
               <AboutInfoItem
-                title="2016-"
-                items={['Freelance web Developer']}
+                title="2020"
+                items={['Branch Committe Vocal Group Porsenigama']}
+              />
+              <br />
+              <AboutInfoItem
+                title="2020"
+                items={[
+                  'Internship Student at Tutorial4Serangkai (Digital Creative Marketing)',
+                  'Web Designer at GPIB Bukit Sion Balikpapan',
+                ]}
+              />
+              <br />
+              <br />
+              <AboutInfoItem
+                title="2021-Present"
+                items={[
+                  'Staff Division of Public Relationship and Multimedia',
+                  'Finance Manager at ASSETS UGM',
+                ]}
               />
             </div>
           </div>
         </div>
-        <ContactBanner />
       </AboutPageStyles>
     </>
   );

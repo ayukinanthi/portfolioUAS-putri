@@ -1,5 +1,5 @@
 import React from 'react';
-import { MdDesktopMac, MdCode, MdPhonelinkSetup } from 'react-icons/md';
+import { MdDesktopMac, MdVideoLibrary, MdColorLens } from 'react-icons/md';
 import styled from 'styled-components';
 import SectionTitle from './SectionTitle';
 import ServicesSectionItem from './ServicesSectionItem';
@@ -27,22 +27,25 @@ export default function ServicesSection() {
   return (
     <ServicesItemsStyles>
       <div className="container">
-        <SectionTitle subheading="What i will do for you" heading="Services" />
+        <SectionTitle
+          subheading="What i will do for you by"
+          heading="my Skills"
+        />
         <div className="services__allItems">
           <ServicesSectionItem
             icon={<MdDesktopMac />}
-            title="web design"
+            title="Android & Web Design"
             desc="I do ui/ux design for the website that helps website to get a unique look."
           />
           <ServicesSectionItem
-            icon={<MdCode />}
-            title="web dev"
-            desc="I also develop the websites. I create high performance website with blazing fast speed."
+            icon={<MdVideoLibrary />}
+            title="Editing Video"
+            desc="I also editing video. I made with high creativity."
           />
           <ServicesSectionItem
-            icon={<MdPhonelinkSetup />}
-            title="app Dev"
-            desc="I develop mobile application. I create mobile app with eye catching ui. "
+            icon={<MdColorLens />}
+            title="Graphic Design"
+            desc="I'm an internship student for Digital Creativity Marketing for sub-division Graphic Design to make creativity design"
           />
         </div>
       </div>

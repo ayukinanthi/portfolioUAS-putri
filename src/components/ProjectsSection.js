@@ -7,7 +7,7 @@ import SectionTitle from './SectionTitle';
 import 'swiper/swiper-bundle.min.css';
 import projects from '../assets/data/projects';
 
-// install Swiper modules
+// untuk install swipers
 SwiperCore.use([Navigation]);
 
 const ProjectSectionStyle = styled.div`
@@ -61,7 +61,7 @@ export default function ProjectsSection() {
   return (
     <ProjectSectionStyle>
       <div className="container">
-        <SectionTitle subheading="some of my recent works" heading="Projects" />
+        <SectionTitle subheading="my recent works" heading="Projects" />
         <div className="projects__allItems">
           <Swiper
             spaceBetween={30}

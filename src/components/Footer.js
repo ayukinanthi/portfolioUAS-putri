@@ -57,7 +57,7 @@ export default function Footer() {
     <FooterStyle>
       <div className="container">
         <div className="footer__col1">
-          <h1 className="footer__col1__title">Ayan Khan</h1>
+          <h1 className="footer__col1__title">Ayu Kinanthi Putri</h1>
           <PText>
             A freelance web designer and developer from Chittagong, Bangladesh.
             I always make websites that have unique designs and also has a good
@@ -128,16 +128,6 @@ export default function Footer() {
               },
             ]}
           />
-        </div>
-      </div>
-      <div className="copyright">
-        <div className="container">
-          <PText>
-            © 2021 - Ayan Khan | Designed By{' '}
-            <a target="_blank" rel="noreferrer" href="http://webcifar.com">
-              web cifar
-            </a>{' '}
-          </PText>
         </div>
       </div>
     </FooterStyle>
