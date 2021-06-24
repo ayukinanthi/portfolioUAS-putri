@@ -1,7 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
 import FooterCol from './FooterCol';
-import PText from './PText';
+// import PText from './PText';
 
 const FooterStyle = styled.div`
   background-color: var(--deep-dark);
@@ -58,15 +58,10 @@ export default function Footer() {
       <div className="container">
         <div className="footer__col1">
           <h1 className="footer__col1__title">Ayu Kinanthi Putri</h1>
-          <PText>
-            A freelance web designer and developer from Chittagong, Bangladesh.
-            I always make websites that have unique designs and also has a good
-            performance rate.
-          </PText>
         </div>
         <div className="footer__col2">
           <FooterCol
-            heading="Important Links"
+            heading="Menu"
             links={[
               {
                 title: 'Home',
@@ -96,15 +91,15 @@ export default function Footer() {
             heading="Contact Info"
             links={[
               {
-                title: '+88012312',
-                path: 'tel:+88012312',
+                title: '+62111111',
+                path: 'tel:+62111111',
               },
               {
-                title: 'webcifar@gmail.com',
-                path: 'mailto:webcifar@gmail.com',
+                title: 'ayukrnanthi@gmail.com',
+                path: 'mailto:ayukrnanthi@gmail.com',
               },
               {
-                title: 'GEC Circle, Chittagong, Bangladesh',
+                title: 'Sleman, DIY',
                 path: 'http://google.com/maps',
               },
             ]}
